@@ -1,5 +1,8 @@
-PlsGenerator
-============
+# PlsGenerator
+
+PHP class for generating of PLS playlist files.
+
+## Usage
 
 ``` php
 <?php
@@ -16,8 +19,7 @@ $playlist->save('playlist.pls');
 ```
 
 
-Dynamic online playlist
------------------------
+### Dynamic online playlist
 
 ``` php
 <?php
@@ -34,8 +36,19 @@ $playlist->addTrack('track2.mp3', 'The Cranberries - Zombie');
 echo $playlist;
 ```
 
+
+## Installation
+
+[Download a latest package](https://github.com/czproject/plsgenerator/releases) or use [Composer](http://getcomposer.org/):
+
+```
+composer require [--dev] czproject/plsgenerator
+```
+
+PlsGenerator requires PHP 5.3.0 or later.
+
 -------------------------------------------------
 
-License: New BSD License
+License: [New BSD License](license.md)
 <br>Author: Jan Pecha, http://janpecha.iunas.cz/
 
