@@ -2,7 +2,6 @@
 	/** PLS Playlist Generator
 	 *
 	 * @author		Jan Pecha, <janpecha@email.cz>
-	 * @version		2012-10-14-2
 	 * @license		New BSD License
 	 */
 
