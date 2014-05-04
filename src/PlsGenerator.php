@@ -20,7 +20,7 @@
 		 * @param	string|array
 		 * @param	string
 		 * @param	int
-		 * @throw	Exception
+		 * @throws	Exception
 		 * @return	$this
 		 */
 		public function addTrack($file, $title = NULL, $length = NULL)
